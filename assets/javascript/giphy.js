@@ -5,7 +5,7 @@ function gifDisplayInfo() {
 	var name = $(this).attr("data-name");
 
     // Example queryURL for Giphy API
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=214928bdd00a480593f9270da4def3e4&limit=10&rating=G";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=214928bdd00a480593f9270da4def3e4&limit=10&rating=G";
 
     $.ajax({
       url: queryURL,
