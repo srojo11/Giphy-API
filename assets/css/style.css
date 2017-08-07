@@ -1,0 +1,122 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .1em;
+	/*background-image: url("name.jpg");*/
+}
+
+h1{
+	font-size: 3.5em;
+	letter-spacing: .2em;
+	margin: 20px;
+	color: #000000;
+
+}
+
+.container{
+	margin-top: 50px;
+    background-color: #ffffff;
+	width: 70%;
+}
+
+
+
+.gif {
+    background-color: #ffffff;
+    border: 1.5px solid #eee;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ 	border-radius: 8px;
+ 	 -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.gif:link {
+
+}
+
+.gif:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.gif:active {
+    background-color: #000000; 
+    color: white;
+}
+
+
+#add-gif {
+    background-color: #ffffff;
+    border: 1.5px solid #eee;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 0px;
+    cursor: pointer;
+ 	 -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#add-gif:link {
+
+}
+
+
+#add-gif:hover {
+    background-color: #000000;
+    color: white;
+}
+
+#add-gif:active {
+    background-color: #456789; 
+    color: white;
+}
+#topics-view{
+
+
+}
+
+.item {
+	float: left;
+	padding: 20px;
+
+}
+
+p{
+padding:5px;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px ;
+    margin: 2px 0;
+    border: 1px solid #000000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: #000000;
+    font-size: 3em;
+
+    /*box-sizing: border-box;*/
+}
+
+
+label {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 2em;
+    color: #000000;
+
+}
+
+
